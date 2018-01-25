@@ -1,0 +1,28 @@
+{
+  "name": "FinastraCentral",
+  "version": "0.0.1",
+  "homepage": "https://finastra-central.herokuapp.com/",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.14.1",
+    "simple-line-icons": "^2.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-eslint": "^6.1.0",
+    "babel-jest": "18.0.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
+    "jquery": "^1.11.3",
+    "jest": "18.1.0"
+  },
+  "engines": {
+    "node": "0.10.26"
+  }
+}
+
