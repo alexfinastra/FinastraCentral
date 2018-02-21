@@ -1,9 +1,9 @@
 var express = require('express');
 var http 	= require('http');
-var path 	= require('path');			//work with paths
+var path 	= require('path');
 var request = require('request');
 var morgan = require('morgan');
-var app = express();  
+var app = express();
 const bodyParser = require('body-parser');
 const snsSubscriptionConfirmation = require('aws-sns-subscription-confirmation');
 
