@@ -17,7 +17,7 @@ app.set('port', PORT);
 //app.use(express.favicon());
 
 
-app.use(express.static(__dirname + '/public')); 
+app.use(express.static(__dirname + '/public'));
 app.use(morgan('combined'));
 app.use(snsSubscriptionConfirmation.overrideContentType());
 app.use(bodyParser.json());
