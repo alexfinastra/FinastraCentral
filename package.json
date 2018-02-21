@@ -7,7 +7,9 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.14.1",
+    "morgan": "^1.9.0",
     "simple-line-icons": "^2.3.2"
   },
   "devDependencies": {
@@ -25,4 +27,3 @@
     "node": "0.10.26"
   }
 }
-
